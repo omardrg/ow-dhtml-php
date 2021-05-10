@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700');
 
 /******************************/
-/***		GENERALS		***/
+/***		GENERALES		***/
 /******************************/
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 /******************************/
-/***		CAPÇALERA		***/
+/***		CABECERA		***/
 /******************************/
 
 header {
@@ -74,11 +74,7 @@ nav {
 		ul.menu-principal>li:first-child {
 			border-left:1px solid #eee;
 		}
-	ul.menu-principal::after {
-		content:"";
-		display:block;
-		clear:left;
-	}
+
 	ul.menu-principal ul {
 		position:absolute;
 		background-color:#707070;
@@ -140,7 +136,7 @@ nav {
 }	
 	
 /******************************/
-/***		CONTINGUTS		***/
+/***		CONTENIDOS		***/
 /******************************/	
 	
 figure {
@@ -156,7 +152,7 @@ figure {
 }
 
 /******************************/
-/***		GALERIA		***/
+/***		GALERÍA		***/
 /******************************/
 
 ul.galeria {
@@ -214,7 +210,7 @@ ul.galeria {
 					}
 
 /******************************/
-/***		PEU				***/
+/***		PIE				***/
 /******************************/
 	
 footer {
@@ -280,7 +276,7 @@ footer {
 }
 
 /**************************/
-/***	FORMULARI		***/
+/***	FORMULARIO		***/
 /**************************/
 input[type="submit"] {
 	padding:1ex;
@@ -372,9 +368,9 @@ input[type="submit"] {
 	
 	
 /**************************************************/
-/***				ICONA NAV					***/
+/***				ICONO NAV					***/
 /**************************************************/
-/*** 			Efectes de la web:				***/
+/*** 			Efectos de la web:				***/
 /*** https://codepen.io/designcouch/pen/Atyop	***/
 /**************************************************/
 
@@ -453,7 +449,9 @@ input[type="submit"] {
 
 
 
-
+/******************************/
+/***	VISOR FANCYBOX		***/
+/******************************/
 .fancybox-thumbs__list a::before {
 	border-color:#707070;
 }
