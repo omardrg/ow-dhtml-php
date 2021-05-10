@@ -6,10 +6,10 @@ Este sitio web utiliza diferentes elementos de lenguajes web para hacer un sitio
 Se puede ver la demo [aquí](http://onaweb.epizy.com/flexbox/)
 
 ## Configuración del formulario
-### Archivo **/contacto.html**, línea **118**:
+### Archivo */contacto.html*, línea *118*:
 Añadir la clave pública de [Google Recaptcha](https://www.google.com/recaptcha/admin/)
 
-### Archivo **mail/envio.php**, línea **8**:
+### Archivo *mail/envio.php*, línea *8*:
 Añadir la configuración de envío del email:
 1. Dirección a la que se envía el formulario
 2. Usuario de una cuenta de correo existente para validar el envío a través de los servidores SMTP de office365: admite cuentas outlook.com, outlook.es, hotmail.com, etc.
