@@ -3,7 +3,7 @@
 
 Este sitio web utiliza diferentes elementos de lenguajes web para hacer un sitio web dinámico y _repsonsive_. De todas formas, necesitará algunas configuraciones por parte del usuario en el formulario de envío.
 
-Se puede ver la demo [aquí](http://onaweb.epizy.com/flexbox/)
+Se puede ver la demo [aquí](https://onaweb.es/ow-dhtml-php/)
 
 ## Configuración del formulario
 ### Archivo */contacto.html*, línea *118*:

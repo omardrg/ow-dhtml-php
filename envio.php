@@ -4,8 +4,8 @@
 /***	CONFIGURACIÓN		***/
 /***						***/
 /******************************/
-$destinatario = 'AAAA@mataroin365.onmicrosoft.com'; // dirección de destino del email
-$usrSMTP = 'AAAA@mataroin365.onmicrosoft.com'; // mail de la cuenta SMTP
+$destinatario = 'AAAA@outlook.com'; // dirección de destino del email
+$usrSMTP = 'AAAA@outlook.com'; // mail de la cuenta SMTP
 $pasSMTP = '****'; // contraseña de la cuenta SMTP
 $sk = '***'; // clave privada de Google Recaptcha
 
@@ -56,15 +56,15 @@ if(isset($_POST['g-recaptcha-response'])) {
 			$mail->isSMTP();                                            //Send using SMTP
 			$mail->Host       = 'smtp.office365.com';                   //Set the SMTP server to send through
 			$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-			$mail->Username   = $usuario;                     			//SMTP username
-			$mail->Password   = $password;                              //SMTP password
+			$mail->Username   = $usrSMTP;                     			//SMTP username
+			$mail->Password   = $pasSMTP;                              //SMTP password
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;			//Enable implicit TLS encryption
 			$mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 			$mail->SMTPDebug  = 0;                      				//Enable verbose debug output; set value to 2
-			$mail->setLanguage('ca', 'PHPMailer/language');
+			$mail->setLanguage('es', 'PHPMailer/language/');
 
 			//Recipients
-			$mail->setFrom($usuario);
+			$mail->setFrom($usrSMTP);
 			$mail->addAddress($destinatario);     					//Add a recipient
 			$mail->addReplyTo($email, $nombre);
 
